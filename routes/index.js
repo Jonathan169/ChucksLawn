@@ -34,6 +34,6 @@ router.post("/test",function(req,res){
 })
 router.use(function(req,res){
     console.log("here")
-    res.sendFile(path.join(__dirname,"../../client/build/index.html"))
+    res.sendFile(path.join(__dirname,"../client/build/index.html"))
 })
 module.exports= router;
